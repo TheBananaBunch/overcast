@@ -30,7 +30,7 @@
 
 /obj/item/projectile/bullet/bullet12x70
 	name = "pellet"
-	eng_desc = "Standard 12-caliber round filled with 6 mm shot. Highly lethal at close range. Only suitable for use with smoothbore weapons."
+	eng_desc = "Standard 12-caliber round filled with 6mm shot. Highly lethal at close range. Only suitable for use with smoothbore weapons."
 	damage = 17
 	range = 24
 	spread = 4
