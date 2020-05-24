@@ -1,13 +1,13 @@
 /obj/item/ammo_box/stalker
 	name = "ammo box (5.45x39mm)"
-	desc = "It shouldn't be here"
+	eng_desc = "5.45x39mm rounds were developed by the Soviet Union in 1974 specifically for the AK-74's use and largely replaced the previous Soviet 7.62x39mm rounds."
 	icon = 'icons/stalker/ammo.dmi'
 	icon_state = "545x39"
 	multiple_sprites = 2
 
 /obj/item/ammo_box/stalker/b545
 	name = "ammo box (5.45x39mm)"
-	desc = "Обычный стандартный патрон, простой сердечник, оболочечна&#255; пул&#255; (5.45x39мм)."
+	eng_desc = "5.45x39mm rounds were developed by the Soviet Union in 1974 specifically for the AK-74's use and largely replaced the previous Soviet 7.62x39mm rounds."
 	ammo_type = /obj/item/ammo_casing/c545
 	icon_state = "545x39"
 	max_ammo = 90
@@ -15,7 +15,7 @@
 
 /obj/item/ammo_box/stalker/b545ap
 	name = "ammo box (5.45x39mm AP)"
-	desc = "Бронебойный патрон дл&#255; автоматических винтовок стран Варшавского договора (5.45x39мм AP)."
+	eng_desc = "5.45x39mm rounds were developed by the Soviet Union in 1974 specifically for the AK-74's use and largely replaced the previous Soviet 7.62x39mm rounds. This variant uses an armor piercing penetrator which deals less soft tissue damage due to reduced bullet expansion."
 	ammo_type = /obj/item/ammo_casing/c545/AP
 	icon_state = "545x39ap"
 	max_ammo = 90
@@ -23,7 +23,7 @@
 
 /obj/item/ammo_box/stalker/b9x18
 	name = "ammo box (9x18mm)"
-	desc = "Патрон с оболочечной пулей. Обладает хорошим останавливающем действием, однако малоэффективен против бронированных целей (9x18мм)."
+	eng_desc = "The 9x18mm cartridge was originally designed for the Makarov PM however after subsequent years it has been adopted by other eastern bloc sidearms such as the Fort-12. "
 	ammo_type = /obj/item/ammo_casing/c9x18
 	icon_state = "9x18"
 	max_ammo = 50
@@ -31,7 +31,7 @@
 
 /obj/item/ammo_box/stalker/b9x18P
 	name = "ammo box (9x18mm +P+)"
-	desc = "Патрон с улучшенными баллистическими свойствами, выраженный бронебойный эффект (9x18мм +P+)."
+	eng_desc = "The 9x18mm cartridge was originally designed for the Makarov PM however after subsequent years it has been adopted by other eastern bloc sidearms such as the Fort-12. This variant utilizes PBP overpressurized ammunition which features better expansion and terminal velocity."
 	ammo_type = /obj/item/ammo_casing/c9x18/P
 	icon_state = "9x18P"
 	max_ammo = 50
@@ -39,7 +39,7 @@
 
 /obj/item/ammo_box/stalker/b12x70
 	name = "ammo box (12x70mm)"
-	desc = "Обычный патрон 12 калибра с 6-мм дробью, огромна&#255; убойна&#255; сила (12x70мм Дробь)."
+	eng_desc = "Standard 12-caliber round filled with 6mm shot. Highly lethal at close range. Only suitable for use with smoothbore weapons."
 	ammo_type = /obj/item/ammo_casing/shotgun/c12x70
 	icon_state = "12x70"
 	max_ammo = 30
@@ -47,7 +47,7 @@
 
 /obj/item/ammo_box/stalker/b12x70P
 	name = "ammo box (12x70mm AP)"
-	desc = "Т&#255;жёла&#255; безоболочечна&#255; пул&#255;, эффективна до 100м. (12x70мм Жекан)."
+	eng_desc = "This heavy 12 caliber slug round is normally used for hunting big game, but is also good for other purposes. Instead of piercing, this hefty slug simply crushes through armor."
 	ammo_type = /obj/item/ammo_casing/shotgun/c12x70P
 	icon_state = "12x70P"
 	max_ammo = 30
@@ -55,7 +55,7 @@
 
 /obj/item/ammo_box/stalker/b12x70D
 	name = "ammo box (12x70mm dart)"
-	desc = "Оперённа&#255; пул&#255;, увеличена дальность и бронебойность, эффективен до 150м. (12x70мм Дротик)."
+	eng_desc = "Dart bullet. Its fins add stability, resulting in increased accuracy. The massive steel body of the bullet can penetrate any body armor."
 	ammo_type = /obj/item/ammo_casing/shotgun/c12x70D
 	icon_state = "12x70D"
 	max_ammo = 30
@@ -63,7 +63,7 @@
 
 /obj/item/ammo_box/stalker/b9x19
 	name = "ammo box (9x19mm)"
-	desc = "Базовый патрон, оболочечна&#255; пул&#255;, слабое бронебойное действие (9x19мм)."
+	eng_desc = "The 9x19mm cartridge was made in the German Empire (Now Germany), developed by Georg Luger and introduced in 1902,. It was originally made for the 9mm variant of the German Luger P08 pistol."
 	ammo_type = /obj/item/ammo_casing/c9x19
 	icon_state = "9x19"
 	max_ammo = 50
@@ -71,7 +71,7 @@
 
 /obj/item/ammo_box/stalker/b9x19P
 	name = "ammo box (9x19mm PBP)"
-	desc = "Мощный патрон с экспансивной пулей и бронебойным сердечником (9x19мм PBP)."
+	eng_desc = "The 9x19mm cartridge was made in the German Empire (Now Germany), developed by Georg Luger and introduced in 1902,. It was originally made for the 9mm variant of the German Luger P08 pistol. This variant utilizes PBP overpressurized ammunition which features better expansion and terminal velocity."
 	ammo_type = /obj/item/ammo_casing/c9x19/P
 	icon_state = "9x19P"
 	max_ammo = 50
@@ -79,7 +79,7 @@
 
 /obj/item/ammo_box/stalker/b55645
 	name = "ammo box (5.56x45mm)"
-	desc = "Стандартный натовский патрон, широко известный под бельгийским индексом SS109. Используетс&#255; в штурмовых винтовках ИЛ86, ТРс-301, СГИ-5к, ГП37, ФТ-200М."
+	eng_desc = "The 5.56x45mm round is an American rifle round originally made for the American M16 assault rifle during the 1950s, derived from the .223 Remington rifle round."
 	ammo_type = /obj/item/ammo_casing/c556x45
 	icon_state = "556x45"
 	max_ammo = 90
@@ -87,7 +87,7 @@
 
 /obj/item/ammo_box/stalker/b55645ap
 	name = "ammo box (5.56x45mm AP)"
-	desc = "Патрон с бронебойной пулей дл&#255; штурмовых винтовок ИЛ86, ТРс 301, СГИ-5к, ГП37, ФТ-200М."
+	eng_desc = "5.56mm M995 Armor-Piercing rounds are Full Metal Jacketed lead rounds with a hardened metal core that have optimal armor penetration capabilities."
 	ammo_type = /obj/item/ammo_casing/c556x45/AP
 	icon_state = "556x45ap"
 	max_ammo = 90
@@ -95,7 +95,7 @@
 
 /obj/item/ammo_box/stalker/b939
 	name = "ammo box (9x39mm)"
-	desc = "Стандартный патрон калибра 9 мм, имеет повышенное останавливающее действие."
+	eng_desc = "9x39 PAB-9 rounds have similar performance to the 5.45x39mm BP and 5.56x45mm AP rounds, with a fairly high penetration ability - making them invaluable against heavy armor."
 	ammo_type = /obj/item/ammo_casing/sp9x39
 	icon_state = "9x39"
 	max_ammo = 90
@@ -103,7 +103,7 @@
 
 /obj/item/ammo_box/stalker/bacp45
 	name = "ammo box (.45 ACP)"
-	desc = "Пистолетный патрон калибра 11,43 мм."
+	eng_desc = "The .45 Automatic Colt Pistol round is a rimless pistol cartridge. It was designed by John Browning in 1904 and was used by Colt in their M1911 pistol."
 	ammo_type = /obj/item/ammo_casing/acp45
 	icon_state = "45_ACP"
 	max_ammo = 50
@@ -111,7 +111,7 @@
 
 /obj/item/ammo_box/stalker/bacp45ap
 	name = "ammo box (.45 ACP Hydroshock)"
-	desc = "Экспансивный патрон калибра 11,43 мм., который используетс&#255; в убойных пистолетах."
+	eng_desc = "The .45 Automatic Colt Pistol round is a rimless pistol cartridge. It was designed by John Browning in 1904 and was used by Colt in their M1911 pistol. This variant utilizes PBP overpressurized ammunition which features better expansion and terminal velocity."
 	ammo_type = /obj/item/ammo_casing/acp45/P
 	icon_state = "45_ACP_hydroshock"
 	max_ammo = 50
@@ -119,7 +119,7 @@
 
 /obj/item/ammo_box/stalker/bmag44
 	name = "ammo box (.44 Magnum)"
-	desc = "Пистолетный патрон калибра .44 Магнум. Возможно, даже слишком мощный."
+	eng_desc = "The .44 Magnum delivers a large, heavy bullet with high velocity for a handgun. In its full-powered form, it produces so much recoil and muzzle blast that it is generally considered to be unsuitable for use as a police weapon."
 	ammo_type = /obj/item/ammo_casing/mag44
 	icon_state = "44_Mag"
 	max_ammo = 50
@@ -127,7 +127,7 @@
 
 /obj/item/ammo_box/stalker/bmag44fmj
 	name = "ammo box (.44 Magnum JHP)"
-	desc = "Пистолетный патрон калибра .44 Магнум, оболоченный. Пробивает навылет любую легкую броню."
+	eng_desc = "The .44 Magnum delivers a large, heavy bullet with high velocity for a handgun. In its full-powered form, it produces so much recoil and muzzle blast that it is generally considered to be unsuitable for use as a police weapon. Rapid fire is difficult and strenuous on the user's hands, especially for shooters of smaller build or with small hands."
 	ammo_type = /obj/item/ammo_casing/mag44/FMJ
 	icon_state = "44_Mag_FMJ"
 	max_ammo = 50
@@ -135,7 +135,7 @@
 
 /obj/item/ammo_box/stalker/b762x25
 	name = "ammo box (7.62x25mm)"
-	desc = "Пистолетный патрон калибра 7.62x25мм, разработанный в прошлом веке дл&#255; советского самозар&#255;дного оружи&#255;. Морально и технически устарел, но еще используетс&#255; в Зоне."
+	eng_desc = "The 7.62Г—25mm Tokarev cartridge is a Russian rimless bottlenecked pistol cartridge widely used in former Soviet states, and in China and Pakistan among other countries."
 	ammo_type = /obj/item/ammo_casing/c762x25
 	icon_state = "762x25"
 	max_ammo = 50
@@ -143,8 +143,7 @@
 
 /obj/item/ammo_box/stalker/b762x51
 	name = "ammo box(7.62x51mm)"
-	desc = "An ammo box."
-	eng_desc = "An ammo box."
+	eng_desc = "The 7.62x54mm rifle cartridge is a Soviet made rifle round made as early as 1891, originally made for the legendary Soviet Mosin-Nagant rifle."
 	ammo_type = /obj/item/ammo_casing/c762x51
 	icon_state = "762x51"
 	max_ammo = 40
