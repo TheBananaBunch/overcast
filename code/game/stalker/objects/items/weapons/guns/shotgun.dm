@@ -1,9 +1,9 @@
 /obj/item/weapon/gun/projectile/revolver
 	modifications = list("barrel_shotgun" = 0, "frame_shotgun" = 0, "grip_shotgun" = 0)
 
-/obj/item/weapon/gun/projectile/revolver/bm16  // ������������
+/obj/item/weapon/gun/projectile/revolver/bm16  // Ãîðèçîíòàëêà
 	name = "BM-16"
-	desc = "��������� ����� - ������������. �������� ������, � ����� ��� ��&#255; �����."
+	desc = "Îõîòíè÷üå ðóæü¸ - ãîðèçîíòàëêà. Äîâîëüíî ìîùíîå, â ñàìûé ðàç äë&#255; îõîòû."
 	eng_desc = "The original Bm16 rifle. Heavy and dangerous two barrel rifle, and its effective in high range too."
 	icon_state = "bm16"
 	item_state = "bm16"
@@ -14,7 +14,7 @@
 	mag_type = /obj/item/ammo_box/magazine/internal/shot/stalker/bm16
 	recoil = 1
 	durability = 150
-	sawn_desc = "����������� ���������� � ����� ����� ����������, �� ���������� ������ � ������� ���. ���� �� ����� ���������������� ����� �����&#255; � ��������."
+	sawn_desc = "Çíà÷èòåëüíî êîìïàêòíåé è ëåã÷å íîâîé äâóñòâîëêè, íî ýôôåêòèâåí òîëüêî â áëèæíåì áîþ. Îäèí èç ñàìûõ ðàñïðîñòðàí¸ííûõ âèäîâ îðóæè&#255; ó íîâè÷êîâ."
 	randomspread = 0
 	spread = 12
 	damagelose = 0.3
@@ -53,9 +53,9 @@
 	else
 		user << "<span class='warning'>[src] is empty!</span>"
 
-/obj/item/weapon/gun/projectile/revolver/bm16/toz34  //  ����������
+/obj/item/weapon/gun/projectile/revolver/bm16/toz34  //  Âåðòèêàëêà
 	name = "TOZ-34"
-	desc = "�������������� ������������ ��������� ����� � ����������� �������������� ��������. ������ ���������������� � ����� ����� �� �������������� ��������� ����� - '����������'."
+	desc = "Âíóòðèêóðêîâîå äâóñòâîëüíîå îõîòíè÷üå ðóæüå ñ âåðòèêàëüíî ðàñïîëîæåííûìè ñòâîëàìè. Øèðîêî ðàñïðîñòðàí¸ííîå è íè÷åì îñîáî íå ïðèìå÷àòåëüíîå îõîòíè÷üå ðóæü¸ - 'âåðòèêàëêà'."
 	eng_desc = "This extremely common over-and-under hunting shotgun can offer better protection against mutants than a pistol, thanks to its accuracy and stopping power. Used mostly by rookies on the outskirts of the Zone."
 	icon_state = "toz34"
 	item_state = "toz34"
@@ -74,7 +74,7 @@
 /obj/item/weapon/gun/projectile/shotgun/ithaca  //  Ithaca M37
 	name = "Ithaca M37"
 	desc = " Pump-action shotgun made in large numbers for the civilian, military, and police markets. It utilizes a novel combination ejection/loading port on the bottom of the gun which leaves the sides closed to the elements. Since shotshells load and eject from the bottom, operation of the gun is equally convenient for both right and left hand shooters. This makes the gun popular with left-handed shooters. The model 37 is considered one of the most durable and reliable shotguns ever produced."
-	eng_desc = "���������� ����� (��������), ������������� ������ �. ���������� � 1913 ���� � ��������������� � 1915 ����. ��������� ������������� ����&#255; ������ ��������� ��������&#255; ����� � ����������� ������� ������������&#255; ��� � ������, ��� � � ����� ���� � ���� �����&#255;��� ������ ������������&#255; ����."
+	eng_desc = "Ìàãàçèííîå ðóæü¸ (äðîáîâèê), ðàçðàáîòàííîå Äæîíîì Ì. Áðàóíèíãîì â 1913 ãîäó è çàïàòåíòîâàííîå â 1915 ãîäó. Îñíîâíûìè äîñòîèíñòâàìè ðóæü&#255; âñåãäà ñ÷èòàëàñü íåáîëüøà&#255; ìàññà è âîçìîæíîñòü ëåãêîãî èñïîëüçîâàíè&#255; êàê ñ ïðàâîé, òàê è ñ ëåâîé ðóêè — âåäü ñòðåë&#255;íûå ãèëüçû îòáðàñûâàþòñ&#255; âíèç."
 	icon_state = "ithacam37"
 	item_state = "ithacam37"
 	durability = 100
@@ -96,7 +96,7 @@
 
 /obj/item/weapon/gun/projectile/shotgun/chaser  //  Winchester 1300
 	name = "Chaser-13"
-	desc = "��������������� �������� ����� ������������� ������������, ��������� ��&#255; ���������&#255; � ����� ����������&#255;���� ������&#255;� � �����������&#255; ������� ����������. ��� ������ �������� ��������������� ���������."
+	desc = "Ãëàäêîñòâîëüíîå ïîìïîâîå ðóæü¸ àìåðèêàíñêîãî ïðîèçâîäñòâà, ñîçäàííîå äë&#255; ïðèìåíåíè&#255; â ñàìûõ íåáëàãîïðè&#255;òíûõ óñëîâè&#255;õ è îòëè÷àþùååñ&#255; âûñîêîé íàä¸æíîñòüþ. Âñå äåòàëè ñíàáæåíû àíòèêîððîçèéíûì ïîêðûòèåì."
 	eng_desc = "A Western smoothbore shotgun that is extremely popular around the world thanks to its amazing reliability and faster reloading speed. Particularly valued for its functionality by the Zone's hunters. All of its parts are coated with an anticorrosion compound."
 	icon_state = "chaser"
 	item_state = "chaser"
@@ -118,7 +118,7 @@
 
 /obj/item/weapon/gun/projectile/revolver/bm16/sawnoff
 	name = "sawed-off BM-16"
-	desc = "����������� ���������� � ����� ����� ����������, �� ���������� ������ � ������� ���. ���� �� ����� ���������������� ����� �����&#255; � ��������."
+	esc = "Çíà÷èòåëüíî êîìïàêòíåé è ëåã÷å íîâîé äâóñòâîëêè, íî ýôôåêòèâåí òîëüêî â áëèæíåì áîþ. Îäèí èç ñàìûõ ðàñïðîñòðàí¸ííûõ âèäîâ îðóæè&#255; ó íîâè÷êîâ."
 	eng_desc = "A sawed-off hunting shotgun with two side-by-side barrels, making it lighter and more compact than a full shotgun. One of the most popular weapons among bandits due to its combination of ease of concealment and extreme effectiveness in close combat."
 	sawn_state = SAWN_OFF
 	weapon_weight = WEAPON_LIGHT
@@ -138,10 +138,10 @@
 
 /obj/item/weapon/gun/projectile/shotgun/spsa
 	name = "SPAS-12"
-	desc = "��������������� �������������� �������� ������������ ���������&#255; � ������������ �����������&#255; ������� ������&#255; ���&#255;. ������������� ��� �� ������ �������� �� �������&#255;, ���������� ������&#255;���&#255; � �������� �������������� ������� �����&#255; ������� � ��������� ������������� �����. ���������&#255; ������� ���������� � ����������� ���������. �������&#255; �� ������� �����, ������� ���������� � ������� ����, �������� �����&#255;��� � ���� ��� ����������� �������� ������ ������ ��������."
+	desc = "Ãëàäêîñòâîëüíûé àâòîìàòè÷åñêèé äðîáîâèê ñïåöèàëüíîãî íàçíà÷åíè&#255; ñ âîçìîæíîñòüþ ïåðåêëþ÷åíè&#255; ðåæèìîâ âåäåíè&#255; îãí&#255;. Ðàçðàáîòàííûé åù¸ âî âòîðîé ïîëîâèíå ÕÕ ñòîëåòè&#255;, ïðîäîëæàåò ïðèìåí&#255;òüñ&#255; â êà÷åñòâå óíèâåðñàëüíîãî áîåâîãî îðóæè&#255; ïîëèöèè è øòóðìîâûõ ïîäðàçäåëåíèé àðìèè. Îòëè÷àåòñ&#255; âûñîêîé íàä¸æíîñòüþ è òàêòè÷åñêîé ãèáêîñòüþ. Íåñìîòð&#255; íà áîëüøóþ ìàññó, ñëîæíîå óñòðîéñòâî è âûñîêóþ öåíó, äîâîëüíî ïîïóë&#255;ðåí â Çîíå êàê ýôôåêòèâíîå ñðåäñòâî áîðüáû ïðîòèâ ìóòàíòîâ."
 	eng_desc = "This special purpose smoothbore automatic shotgun was designed in the second half of the 20th century and comes with pump-action and self-cocking firing modes. Used as an all-purpose weapon by the police and assault troops. Notable for its reliability and tactical flexibility. Despite its large weight, complex mechanism and considerable cost it is in demand in the Zone due to its effectiveness against mutants."
-	icon_state = "spsa"	//����� ��������
-	item_state = "spsa" //����� ��������
+	icon_state = "spsa"	//Íóæíî äîáàâèòü
+	item_state = "spsa" //Íóæíî äîáàâèòü
 	durability = 150
 	slot_flags = SLOT_BACK
 	mag_type = /obj/item/ammo_box/magazine/internal/shot/spsa
@@ -158,7 +158,7 @@
 	pumpsound = 'sound/stalker/weapons/pump/spsa_pump.ogg'
 	drawsound = 'sound/stalker/weapons/draw/shotgun_draw.ogg'
 
-///////////////////////////// �������� //////////////////////////////////////////
+///////////////////////////// Âèíòîâêè //////////////////////////////////////////
 
 /obj/item/weapon/gun/projectile/shotgun/boltaction/enfield
 	name = "Lee Enfield"
