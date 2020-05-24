@@ -1,4 +1,4 @@
-// range: 1 тайл = 4
+// range: 1 пїЅпїЅпїЅпїЅ = 4
 /obj/item/projectile/bullet
 	impact_effect_type = /obj/effect/overlay/temp/impact_effect
 
@@ -8,8 +8,8 @@
 	spread = 2
 
 /obj/item/projectile/bullet/bullet9x18P
-	damage = 16
-	armour_penetration = 20
+	damage = 24
+	armour_penetration = 5
 	range = 40
 	spread = 2
 
@@ -20,7 +20,7 @@
 
 /obj/item/projectile/bullet/bullet545AP
 	damage = 25
-	armour_penetration = 25
+	armour_penetration = 15
 	range = 80
 	spread = 3
 
@@ -49,14 +49,14 @@
 	spread = 3
 
 /obj/item/projectile/bullet/bullet9x19P
-	damage = 18
-	armour_penetration = 20
+	damage = 24
+	armour_penetration = 5
 	range = 50
 	spread = 3
 
 /obj/item/projectile/bullet/bullet9x39
-	damage = 22
-	armour_penetration = 40
+	damage = 26
+	armour_penetration = 5
 	range = 40
 	spread = 1
 
@@ -66,8 +66,8 @@
 	spread = 3
 
 /obj/item/projectile/bullet/bulletacp45P
-	damage = 22
-	armour_penetration = 20
+	damage = 31
+	armour_penetration = 5
 	range = 40
 	spread = 3
 
@@ -78,31 +78,31 @@
 	spread = 15
 
 /obj/item/projectile/bullet/bullet556x45
-	damage = 26
-	armour_penetration = 15
+	damage = 32
+	armour_penetration = 5
 	range = 80
 	spread = 2
 
 /obj/item/projectile/bullet/bullet556x45AP
-	damage = 23
-	armour_penetration = 35
+	damage = 26
+	armour_penetration = 20
 	range = 80
 	spread = 2
 
 /obj/item/projectile/bullet/bulletmag44
-	damage = 41
+	damage = 32
 	range = 40
 	spread = 3
 
 /obj/item/projectile/bullet/bulletmag44FMJ
-	damage = 35
-	armour_penetration = 25
+	damage = 28
+	armour_penetration = 10
 	range = 40
 	spread = 3
 
 /obj/item/projectile/bullet/bullet762x25
-	damage = 15
-	armour_penetration = 15
+	damage = 23
+	armour_penetration = 5
 	range = 40
 	spread = 3
 
@@ -112,7 +112,7 @@
 	spread = 2
 
 /obj/item/projectile/bullet/bullet762x51
-	damage = 52
+	damage = 40
 	armour_penetration = 0
 	range = 80
 	spread = 2
